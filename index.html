@@ -21,7 +21,7 @@
                 "#ff0ea7"
             ];
             function clickButton() {
-                let index = Math.floor(Math.random() * 6);
+                let index = Math.floor(Math.random() * color.length);
                 document.body.style.backgroundColor = color[index];
                 document.getElementById("info").innerHTML = "Background Color: ".concat(color[index]);
             }
