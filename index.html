@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Color Flipper</title>
+        <style>
+            body {
+                background-color:  #ff0000;
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+            const color = [
+                "#ff5733",
+                "#80ff33",
+                "#67b360",
+                "#6097b3",
+                "#8c60b3",
+                "#ff0ea7"
+            ];
+            function clickButton() {
+                let index = Math.floor(Math.random() * 6);
+                document.body.style.backgroundColor = color[index];
+                document.getElementById("info").innerHTML = "Background Color: ".concat(color[index]);
+            }
+        </script>
+
+        <h2 id="info">Background Color: #ff0000</h2>
+        <button onclick="clickButton()">Click me</button>
+    </body>
+</html>
