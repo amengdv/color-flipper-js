@@ -16,5 +16,4 @@ I just went with ugly UI and I just want to focus on the Javascript.
 ## Why is it only single file? Why don't you organize it?
 Like I said I just want to focus on the Javascript side, I know how to organize it, like maybe make a separate JS
 file or CSS file but hey its a single page website and does not require any other pages that references to the same JS.
-So it's not going to slow anything down. Plus, I just want to play around and see if I can make it work and it does
-
+So it's not going to slow anything down. Plus, I just want to play around and see if I can make it work and it does.
